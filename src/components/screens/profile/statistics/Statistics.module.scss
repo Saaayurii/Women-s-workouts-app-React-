@@ -1,0 +1,39 @@
+@import 'src/assets/styles/variables';
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&.profile {
+		> .count .heading {
+			color: #775f5f;
+		}
+	}
+
+	> .count {
+		width: 27%;
+		font-size: 24px;
+		text-align: center;
+
+		@media (max-width: $mobile) {
+			font-size: 18px;
+		}
+
+		.heading {
+			color: $White;
+			-webkit-text-stroke: 1px #111;
+		text-shadow: 5px 0 10px #000;
+			font-size: 35px;
+			text-transform: capitalize;
+			@media (max-width: $mobile) {
+				font-size: 25px;
+			}
+		}
+
+		.number {
+			font-weight: bold;
+			color: $Accent;
+		}
+	}
+}

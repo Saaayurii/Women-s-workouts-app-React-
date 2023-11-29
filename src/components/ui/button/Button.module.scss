@@ -1,0 +1,37 @@
+@import 'src/assets/styles/variables';
+
+
+
+.button {
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 13px 48px;
+	transition: background-color 0.15s ease;
+	background-color: $Accent;
+	cursor: pointer;
+	color: #fff;
+
+	// @media (max-width: $mobile) {
+	// 	font-size: 16px;
+	// 	padding: 12px 38px;
+	// }
+
+	&:hover {
+		background-color: $light-pink;
+		box-shadow: $bx-accent;
+	}
+
+	&.main {
+		background-color: rgba(255, 255, 255, 0.25);
+
+		&:hover {
+			background-color: $light-grey;
+		}
+	}
+}
+
+.wrapper {
+	text-align: center;
+}

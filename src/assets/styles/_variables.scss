@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+$default-fount: 'Rubik', sans-serif;
+
+$Accent: #B53471;
+$White: #F1E8E8;
+$Brown: #310C24;
+$Grey-blue: #21202E;
+$Black: #190612;
+$Light-brown:#511734;
+$Green: #09a794;
+$light-grey: #B1BCCE;
+$light-purple: #D7D4E5;
+$light-white: #E2E1E7;
+$light-pink: #F1D6DD;
+$pink: #e5b2c6;
+$hard-dark-pink: darkest($pink, 30%);
+$dark-pink: darkest($pink, 18%);
+$mobile: 480px;
+
+$bx-accent: 0 10px 3px rgba($Accent, 0.25);
+$bx-16: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+$radius: 0.7rem;
+$gap: 30px;

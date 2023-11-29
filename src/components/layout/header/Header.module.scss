@@ -1,0 +1,17 @@
+@import 'src/assets/styles/variables';
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	>button{
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+	>h1{
+		-webkit-text-stroke: 1px #111;
+		text-shadow: 5px 0 10px #000,
+	}
+}
